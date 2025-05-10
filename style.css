@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
 html {
   box-sizing: border-box;
@@ -10,33 +10,36 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(37, 37, 37);
+  background: #F7F7F7;
 }
 
 .button-container {
-  border: 2px solid black;
+  border: 2px solid #2A4759;
   padding: 10px;
   border-radius: 8px;
-  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+  box-shadow: inset 0 20px 4px -19px rgba(15, 14, 14, 0.7);
 }
 
 button {
   cursor: pointer;
   outline: none;
-  width: 120px;
+  width: 140px;
   height: 75px;
-  font-family: 'Barlow', sans-serif;
-  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 28px;
+  letter-spacing: 2px;
   color: white;
-  text-shadow: 0 2px 5px black;
-  background: linear-gradient(to top, #696969, #575757);
-  border: 2px solid black;
+  text-shadow: 0 2px 8px #2A4759;
+  background: linear-gradient(to top, #FFB22C, #FF9D23);
+  border: 2px solid #2A4759;
   border-radius: 8px;
-  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 20px 4px -19px rgba(19, 17, 17, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
 }
 
 button:hover {
-  background: linear-gradient(to bottom, #696969, #575757);
+  background: linear-gradient(to bottom, #FFB22C, #FF9D23);
 }
 
 button:active {
